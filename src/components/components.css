@@ -1,0 +1,11 @@
+.generalHeight{
+width: 100vw;
+height: 90vh;
+}
+
+.topBackground{
+    background-image: url('./images/topbackground.png');
+    background-size: 100% 100%;
+    right: 0%;
+    background-repeat: no-repeat;
+}
