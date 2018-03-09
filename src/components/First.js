@@ -1,13 +1,13 @@
 import React, {Component} from 'react'
 
-class Top extends Component{
+class First extends Component{
 
 render(){
 return(
 <div>
-Top
+First
 </div>
 )
 }
 }
-export default Top
+export default First

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import Top from './components/Top'
+import First from './components/First'
 import Second from './components/Second'
 import './App.css';
 
