@@ -2,16 +2,28 @@ import React, { Component } from "react"
 import "./components.css"
 
 class First extends Component {
+    constructor(){
+        super()
+        this.state ={
+            data: []
+        }
+    }
+
+
+
+
   render() {
     return (
       <div className="generalHeight topBackground">
-        <p> Ambience Security Technology</p>
-        <p>Services</p>
+        <p> Ambience Total Security</p>
+        <div>
+        <p>Security Services</p>
         <p>Industry?</p>
-        <p >ABOUT US</p>
+        <p>ABOUT US</p>
         <p>Insights</p>
-        <p>Careers</p>
+        <p>Our Work</p>
         <p>Contact Us</p>
+        </div>
       </div>
     )
   }
