@@ -4,7 +4,7 @@ class cmp extends Component{
 
 render(){
 return(
-<div className="generalHeight">
+<div className="generalHeight secondBackground">
 Second
 </div>
 )
