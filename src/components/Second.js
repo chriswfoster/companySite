@@ -5,7 +5,7 @@ class cmp extends Component {
     return (
       <div className="generalHeight secondBackground">
         <div className="secondFlex1">
-          <p style={{ marginBottom: "5%", fontSize: "1em" }}>
+          <p style={{ marginBottom: "5%", fontSize: "2em", color: "white" }}>
             A smarter home/office, is a safer home/office
           </p>
           <div className="secondFlex2">
