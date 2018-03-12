@@ -11,7 +11,23 @@
 }
 
 .secondBackground {
-  background-color: rgb(212, 224, 250);
+  background: rgb(14, 37, 51);
+  background: -moz-linear-gradient(
+    top,
+    rgb(14, 37, 51, 1) 0%,
+    rgba(24, 34, 164, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(14, 37, 51, 1) 0%,
+    rgba(24, 34, 164, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgb(14, 37, 51, 1) 0%,
+    rgba(24, 34, 164, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fb4e7', endColorstr='#a9e4f7',GradientType=0 );
 }
 
 .secondImage {
@@ -24,6 +40,14 @@
   border-width: 5px;
   max-width: 40%;
   max-height: 80%;
+}
+.secondFlex1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
 }
 .secondFlex2 {
   display: flex;
