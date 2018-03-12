@@ -20,32 +20,32 @@ class cmp extends Component {
                   <p>Wide Range of Compatible Devices</p>
                 </li>
                 <li>
-                  <h3>
+                  <p>
                     Cameras, locks, smoke detectors, window/door sensors,
                     electronic lockbox, and alarm system are controlled by just
                     one application.
-                  </h3>
+                  </p>
                 </li>
                 <li>
-                  <h3>
+                  <p>
                     App manages sensor location by each individusal specific
                     location in home or building.
-                  </h3>
+                  </p>
                 </li>
                 <li>
-                  <h3>
+                  <p>
                     Safety records, indexes of consumption, graphs and
                     statistics stored in our secure database.
-                  </h3>
+                  </p>
                 </li>
                 <li>
-                  <h3>
+                  <p>
                     Manage all of your connected devices in one place - the palm
                     of your hand!
-                  </h3>
+                  </p>
                 </li>
                 <li>
-                  <h3>Product support also available.</h3>
+                  <p>Product support also available.</p>
                 </li>
               </ul>
             </div>
