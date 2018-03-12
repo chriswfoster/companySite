@@ -13,8 +13,8 @@ class First extends Component {
   render() {
     return (
       <div className="generalHeight topBackground">
-        <p> Ambience Total Security</p>
-        <div>
+        <h1 style={{marginTop: "-1vh", color: "white", textAlign: "center"}}> Ambience Total Security</h1>
+        <div style={{color: "white"}}>
           <p className="firstAnimation">Security Services</p>
           <p className="secondAnimation">Industry?</p>
           <p className="thirdAnimation">ABOUT US</p>

@@ -1,18 +1,31 @@
 .firstAnimation {
+position: absolute;
+right:30%;
+top: 22vh;
 
 }
 .secondAnimation{
-
+position: absolute;
+right:25%;
+top: 30vh;
 }
 .thirdAnimation{
-
+position: absolute;
+right:20%;
+top: 38vh;
 }
 .fourthAnimation{
-
+position: absolute;
+right:20%;
+top: 46vh;
 }
 .fifthAnimation{
-
+position: absolute;
+right:25%;
+top:54vh;
 }
 .sixthAnimation{
-    
+position: absolute;
+right:30%;
+top: 62vh;
 }
