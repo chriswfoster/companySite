@@ -2,80 +2,135 @@
   position: absolute;
   right: 30%;
   top: 22vh;
+  border-radius: 10px;
+  animation-name: flasher;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-name: flasher;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
 }
 .secondAnimation {
   position: absolute;
   right: 25%;
   top: 30vh;
+  border-radius: 10px;
+  animation-name: flasher;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.16s;
+  -webkit-animation-delay: 0.16s;
+  -webkit-animation-name: flasher;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
 }
 .thirdAnimation {
   position: absolute;
   right: 20%;
   top: 38vh;
+  border-radius: 10px;
+  animation-name: flasher;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.33s;
+  -webkit-animation-delay: 0.33s;
+  -webkit-animation-name: flasher;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
 }
 .fourthAnimation {
   position: absolute;
   right: 20%;
   top: 46vh;
+  border-radius: 10px;
+  animation-name: flasher;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.49s;
+  -webkit-animation-delay: 0.49s;
+  -webkit-animation-name: flasher;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
 }
 .fifthAnimation {
   position: absolute;
   right: 25%;
   top: 54vh;
+  border-radius: 10px;
+  animation-name: flasher;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.66s;
+  -webkit-animation-delay: 0.66s;
+  -webkit-animation-name: flasher;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
 }
 .sixthAnimation {
   position: absolute;
   right: 30%;
   top: 62vh;
-}
-
-.flashFaderAnimation {
+  border-radius: 10px;
   animation-name: flasher;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+  animation-delay: 0.83s;
+  -webkit-animation-delay: 0.83s;
   -webkit-animation-name: flasher;
   -webkit-animation-duration: 1s;
   -webkit-animation-fill-mode: forwards;
+}
+
+.flashFaderAnimation {
   cursor: pointer;
+  border-radius: 15px;
+  border-color: #054e6d;
+  border-style: solid;
+  padding: 10px;
 }
-.firstAnimation:hover {
-  -webkit-box-shadow: 0px 0px 78px 0px rgba(13, 255, 255, 1);
-  -moz-box-shadow: 0px 0px 78px 0px rgba(13, 255, 255, 1);
-  box-shadow: 0px 0px 78px 0px rgba(13, 255, 255, 1);
+.flashFaderAnimation:hover {
+  background-color: #054f6d;
 }
+
 @keyframes flasher {
   0% {
-    -moz-box-shadow: 0px 0px 0px rgb(0, 225, 255);
-    -webkit-box-shadow: 0px 0px 0px rgb(0, 225, 255);
-    box-shadow: 0px 0px 0px rgb(0, 225, 255);
+    -moz-box-shadow: 0px 0px 0px rgba(93, 204, 232, 0);
+    -webkit-box-shadow: 0px 0px 0px rgba(93, 204, 232, 0);
+    box-shadow: 0px 0px 0px rgba(93, 204, 232, 0);
+    
   }
   50% {
-    -webkit-box-shadow: 0px 0px 78px 0px rgba(13, 255, 255, 1);
-    -moz-box-shadow: 0px 0px 78px 0px rgba(13, 255, 255, 1);
-    box-shadow: 0px 0px 78px 0px rgba(13, 255, 255, 1);
+    -webkit-box-shadow: 0px 0px 13px 12px rgb(93, 204, 232);
+    -moz-box-shadow: 0px 0px 13px 12px rgb(93, 204, 232);
+    box-shadow: 0px 0px 13px 12px rgb(93, 204, 232);
+    background-color: rgba(93, 204, 232, 1);
   }
-
   100% {
-    -moz-box-shadow: 0px 0px 0px rgb(0, 225, 255);
-    -webkit-box-shadow: 0px 0px 0px rgb(0, 225, 255);
-    box-shadow: 0px 0px 0px rgb(0, 225, 255);
+    -moz-box-shadow: 0px 0px 0px rgba(93, 204, 232, 0);
+    -webkit-box-shadow: 0px 0px 0px rgba(93, 204, 232, 0);
+    box-shadow: 0px 0px 0px rgba(93, 204, 232, 0);
+   
   }
 }
 @-webkit-keyframes flasher {
   0% {
-    -moz-box-shadow: 0px 0px 0px rgb(0, 225, 255);
-    -webkit-box-shadow: 0px 0px 0px rgb(0, 225, 255);
-    box-shadow: 0px 0px 0px rgb(0, 225, 255);
+    -moz-box-shadow: 0px 0px 0px rgba(93, 204, 232, 0);
+    -webkit-box-shadow: 0px 0px 0px rgba(93, 204, 232, 0);
+    box-shadow: 0px 0px 0px rgba(93, 204, 232, 0);
+    
   }
   50% {
-    -webkit-box-shadow: 0px 0px 78px 0px rgba(13, 255, 255, 1);
-    -moz-box-shadow: 0px 0px 78px 0px rgba(13, 255, 255, 1);
-    box-shadow: 0px 0px 78px 0px rgba(13, 255, 255, 1);
+    -webkit-box-shadow: 0px 0px 13px 12px rgb(93, 204, 232);
+    -moz-box-shadow: 0px 0px 13px 12px rgb(93, 204, 232);
+    box-shadow: 0px 0px 13px 12px rgb(93, 204, 232);
+    background-color: rgba(93, 204, 232, 1);
   }
-
   100% {
-    -moz-box-shadow: 0px 0px 0px rgb(0, 225, 255);
-    -webkit-box-shadow: 0px 0px 0px rgb(0, 225, 255);
-    box-shadow: 0px 0px 0px rgb(0, 225, 255);
+    -moz-box-shadow: 0px 0px 0px rgba(93, 204, 232, 0);
+    -webkit-box-shadow: 0px 0px 0px rgba(93, 204, 232, 0);
+    box-shadow: 0px 0px 0px rgba(93, 204, 232, 0);
+   
   }
 }

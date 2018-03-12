@@ -7,6 +7,17 @@ import Fourth from './components/Fourth'
 import './App.css';
 
 class App extends Component {
+constructor(){
+  super()
+  this.state ={
+    texttyping: "",
+    data: {}
+  }
+}
+
+
+
+
   render() {
     return (
       <div className="appheight">

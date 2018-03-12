@@ -15,12 +15,12 @@ class First extends Component {
       <div className="generalHeight topBackground">
         <h1 style={{marginTop: "-1vh", color: "white", textAlign: "center"}}> Ambience Total Security</h1>
         <div style={{color: "white"}}>
-          <p className="firstAnimation flashFaderAnimation">Security Services</p>
-          <p className="secondAnimation flashFaderAnimation">Industry?</p>
+          <p className="firstAnimation flashFaderAnimation">SECURITY SERVICES</p>
+          <p className="secondAnimation flashFaderAnimation">INDUSTRY</p>
           <p className="thirdAnimation flashFaderAnimation">ABOUT US</p>
-          <p className="fourthAnimation flashFaderAnimation">Insights</p>
-          <p className="fifthAnimation flashFaderAnimation">Our Work</p>
-          <p className="sixthAnimation flashFaderAnimation">Contact Us</p>
+          <p className="fourthAnimation flashFaderAnimation">INSIGHTS</p>
+          <p className="fifthAnimation flashFaderAnimation">OUR WORK</p>
+          <p className="sixthAnimation flashFaderAnimation">CONTACT US</p>
         </div>
       </div>
     )
