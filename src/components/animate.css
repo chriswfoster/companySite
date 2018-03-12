@@ -29,3 +29,37 @@ position: absolute;
 right:30%;
 top: 62vh;
 }
+
+.flashFaderAnimation{
+    animation-name: flasher;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: flasher;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+}
+@keyframes flasher {
+    0% {
+       
+    }
+    75% {
+      
+    }
+  
+    100% {
+        
+    }
+  }
+  @-webkit-keyframes flasher {
+    0% {
+       
+    }
+    75% {
+        
+    }
+  
+    100% {
+       
+    }
+  }
+
