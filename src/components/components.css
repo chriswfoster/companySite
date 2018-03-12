@@ -57,6 +57,7 @@
   align-items: center;
   align-content: stretch;
   height: 100%;
+  margin-top: -2%;
 }
 .secondTextBlock {
   max-width: 40%;

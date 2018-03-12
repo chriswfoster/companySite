@@ -1,28 +1,26 @@
 import React, { Component } from "react"
 import "./components.css"
+import "./animate.css"
 
 class First extends Component {
-    constructor(){
-        super()
-        this.state ={
-            data: []
-        }
+  constructor() {
+    super()
+    this.state = {
+      data: []
     }
-
-
-
+  }
 
   render() {
     return (
       <div className="generalHeight topBackground">
         <p> Ambience Total Security</p>
         <div>
-        <p>Security Services</p>
-        <p>Industry?</p>
-        <p>ABOUT US</p>
-        <p>Insights</p>
-        <p>Our Work</p>
-        <p>Contact Us</p>
+          <p className="firstAnimation">Security Services</p>
+          <p className="secondAnimation">Industry?</p>
+          <p className="thirdAnimation">ABOUT US</p>
+          <p className="fourthAnimation">Insights</p>
+          <p className="fifthAnimation">Our Work</p>
+          <p className="sixthAnimation">Contact Us</p>
         </div>
       </div>
     )
