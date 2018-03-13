@@ -1,56 +1,55 @@
 import React, { Component } from "react"
 
-import Particles from 'react-particles-js';
-
+import Particles from "react-particles-js"
 
 class cmp extends Component {
   render() {
     return (
       <div className="generalHeight secondBackground">
-      <Particles 
-              params={{
-            		particles: {
-                  "color": {
-                    "value": "#0019ff"
-                  },
-                  opacity: {
-                    value: 1,
-                    "random": false,
-                    "anim": {
-                      "enable": false,
-                      "speed": 1,
-                      "opacity_min": 0.1,
-                      "sync": false
-                    }
-                  },
-                  size:{
-                    value: 5.891476416322726,
-                    random: true,
-                    anim: {
-                      enable: false,
-                      speed: 40,
-                      size_min: 0.1,
-                      sync: false
-                    }
-                  },
-            			line_linked: {
-                    width: 2.683101981549727,
-            				shadow: {
-            					enable: true,
-                      color: "#0019ff",
-                      opacity: 1,
-                      blur: 0,
-            				}
-            			}
-            		}
-            	}}
-              style={{
-                width: '100%',
-                backgroundColor: 'black', 
-                position: 'absolute',
-                zIndex: "-3"
-              }}
-            />
+        <Particles
+          params={{
+            particles: {
+              color: {
+                value: "#0019ff"
+              },
+              opacity: {
+                value: 1,
+                random: false,
+                anim: {
+                  enable: false,
+                  speed: 1,
+                  opacity_min: 0.1,
+                  sync: false
+                }
+              },
+              size: {
+                value: 5.891476416322726,
+                random: true,
+                anim: {
+                  enable: false,
+                  speed: 40,
+                  size_min: 0.1,
+                  sync: false
+                }
+              },
+              line_linked: {
+                width: 2.683101981549727,
+                shadow: {
+                  enable: true,
+                  color: "#0019ff",
+                  opacity: 1,
+                  blur: 0
+                }
+              }
+            }
+          }}
+          style={{
+            width: "80%",
+            backgroundColor: "black",
+            position: "absolute",
+            zIndex: "-3"
+          }}
+        />
         <div className="secondFlex1">
           <p style={{ marginBottom: "5%", fontSize: "2em", color: "white" }}>
             A smarter home/office, is a safer home/office
@@ -61,7 +60,7 @@ class cmp extends Component {
               src={require("./images/image_1_26.png")}
             />
             <div className="secondTextBlock">
-              <p style={{fontSize:"2em"}}>FEATURES:</p>
+              <p style={{ fontSize: "2em" }}>FEATURES:</p>
               <ul>
                 <li>
                   <p>Wide Range of Compatible Devices</p>
