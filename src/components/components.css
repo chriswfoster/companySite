@@ -15,9 +15,9 @@
 }
 
 .secondImage {
-  -moz-box-shadow: 7px 7px 6px rgba(93, 204, 232, 0.5);
-  -webkit-box-shadow: 7px 7px 6px rgba(93, 204, 232, 0.5);
-  box-shadow: 7px 7px 6px rgba(93, 204, 232, 0.5);
+  -moz-box-shadow: 7px 7px 6px rgba(68, 68, 68, 0.76);
+  -webkit-box-shadow: 7px 7px 6px rgba(68, 68, 68, 0.76);
+  box-shadow: 7px 7px 6px rgba(68, 68, 68, 0.76);
   border-radius: 10px;
   border-style: outset;
   border-color: rgb(215, 213, 213);
@@ -49,9 +49,9 @@
   border-color: rgb(215, 213, 213);
   border-radius: 10px;
   border-width: 5px;
-  -moz-box-shadow: 7px 7px 6px rgba(93, 204, 232, 0.5);
-  -webkit-box-shadow: 7px 7px 6px rgba(93, 204, 232, 0.5);
-  box-shadow: 7px 7px 6px rgba(93, 204, 232, 0.5);
+  -moz-box-shadow: 7px 7px 6px rgba(68, 68, 68, 0.76);
+  -webkit-box-shadow: 7px 7px 6px rgba(68, 68, 68, 0.76);
+  box-shadow: 7px 7px 6px rgba(68, 68, 68, 0.76);
   padding: 2%;
   color: white;
   background: -moz-linear-gradient(

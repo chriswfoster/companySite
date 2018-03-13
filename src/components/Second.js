@@ -51,9 +51,10 @@ class cmp extends Component {
           }}
         />
         <div className="secondFlex1">
-          <p style={{ marginBottom: "5%", fontSize: "2em", color: "white" }}>
-            A smarter home/office, is a safer home/office
+          <p style={{ fontSize: "2em", color: "white" }}>
+            Remote security and automation controls.
           </p>
+          <p style={{ marginBottom: "3%", fontSize: "1em", color: "white", marginTop: "-1%" }}>A smarter home/office, is a safer home/office</p>
           <div className="secondFlex2">
             <img
               className="secondImage"
