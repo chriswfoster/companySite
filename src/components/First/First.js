@@ -1,6 +1,7 @@
 import React, { Component } from "react"
-import "./components.css"
-import "./animate.css"
+import "../components.css"
+import "../animate.css"
+import FirstCarousel from './childComponents/FirstCarousel'
 
 class First extends Component {
   constructor() {
@@ -13,6 +14,7 @@ class First extends Component {
   render() {
     return (
       <div className="generalHeight topBackground">
+      <FirstCarousel />
         <h1 style={{marginTop: "-1vh", color: "white", textAlign: "center"}}> Ambience Total Security</h1>
         <div style={{color: "white"}}>
           <p className="firstAnimation flashFaderAnimation">SECURITY SERVICES</p>

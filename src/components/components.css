@@ -44,7 +44,7 @@
 }
 .secondTextBlock {
   max-width: 40%;
-  height: 65vh;
+  max-height: 65vh;
   overflow-y: scroll;
   border-style: outset;
   border-color: rgb(215, 213, 213);
