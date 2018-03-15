@@ -1,6 +1,6 @@
 .generalHeight {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
 }
 
 .topBackground {
@@ -23,9 +23,10 @@
   border-color: rgb(215, 213, 213);
   border-width: 5px;
   max-width: 40%;
-  max-height: 70%;
+  height: 70vh;
 }
 .secondFlex1 {
+  height: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -40,11 +41,11 @@
   justify-content: space-around;
   align-items: center;
   align-content: stretch;
-  height: 100%;
-  margin-top: -2%;
 }
 .secondTextBlock {
   max-width: 40%;
+  height: 65vh;
+  overflow-y: scroll;
   border-style: outset;
   border-color: rgb(215, 213, 213);
   border-radius: 10px;
@@ -52,7 +53,7 @@
   -moz-box-shadow: 7px 7px 6px rgba(68, 68, 68, 0.76);
   -webkit-box-shadow: 7px 7px 6px rgba(68, 68, 68, 0.76);
   box-shadow: 7px 7px 6px rgba(68, 68, 68, 0.76);
-  padding: 2%;
+  padding: 1%;
   color: white;
   background: -moz-linear-gradient(
       top,

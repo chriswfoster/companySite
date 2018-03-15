@@ -54,7 +54,7 @@ class cmp extends Component {
           <p style={{ fontSize: "2em", color: "white" }}>
             Remote security and automation controls.
           </p>
-          <p style={{ marginBottom: "3%", fontSize: "1em", color: "white", marginTop: "-1%" }}>A smarter home/office, is a safer home/office</p>
+          <p style={{fontSize: "1em", color: "white", marginTop: "-1%" }}>A smarter home/office, is a safer home/office</p>
           <div className="secondFlex2">
             <img
               className="secondImage"
