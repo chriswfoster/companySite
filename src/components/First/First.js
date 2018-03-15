@@ -14,8 +14,8 @@ class First extends Component {
   render() {
     return (
       <div className="generalHeight topBackground">
-      <FirstCarousel />
         <h1 style={{marginTop: "-1vh", color: "white", textAlign: "center"}}> Ambience Total Security</h1>
+      <FirstCarousel />
         <div style={{color: "white"}}>
           <p className="firstAnimation flashFaderAnimation">SECURITY SERVICES</p>
           <p className="secondAnimation flashFaderAnimation">INDUSTRY</p>

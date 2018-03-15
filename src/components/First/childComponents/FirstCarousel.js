@@ -1,34 +1,24 @@
 import React, {Component} from 'react'
-import Slider from 'react-slick'
+import Carousel from 'nuka-carousel';
 
 import './firstcarousel.css'
 class FirstCarousel extends Component{
 constructor(){
     super()
-    this.state ={
-        settings:{
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
+    this.state = {
+
     }
 }
 
     render(){
-        const {settings} = this.state
+        
         return(
-        <div>
-                  <Slider {...settings}>
-        <div><h3>1</h3></div>
-        <div><h3>2</h3></div>
-        <div><h3>3</h3></div>
-        <div><h3>4</h3></div>
-        <div><h3>5</h3></div>
-        <div><h3>6</h3></div>
-      </Slider>
-                
+        <div style={{maxWidth: "50vw"}}>
+        <Carousel>
+        <img src={require('./carouselimages/MPX analog wiring system.png')} />
+        <img src={require('./carouselimages/Power over ethernet.png')} />
+        <img src={require('./carouselimages/Wireless security system.png')} />
+      </Carousel> 
             </div>
         )
     }
