@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Carousel } from "react-responsive-carousel"
+
 
 import "./first.css"
 class FirstCarousel extends Component {
@@ -26,30 +26,28 @@ class FirstCarousel extends Component {
     console.log(this.state)
     return (
       <div className="carouselBackground">
-        <p> : </p>
-        <Carousel autoPlay interval={3000} infiniteLoop>
-          <div>
+        <div>
+
             <img
-              className="carouselImages"
+              className="carouselImages firstCarouselImage"
               src={require("./carouselimages/MPX analog wiring system.png")}
             />
             <p className="legend">Legend</p>
-          </div>
-          <div>
+
+  
             <img
               className="carouselImages"
               src={require("./carouselimages/Power over ethernet.png")}
             />
             <p className="legend">Legend</p>
-          </div>
-          <div>
+
             <img
               className="carouselImages"
               src={require("./carouselimages/Wireless security system.png")}
             />
             <p className="legend">Legend</p>
-          </div>
-        </Carousel>
+
+        </div>
       </div>
     )
   }
