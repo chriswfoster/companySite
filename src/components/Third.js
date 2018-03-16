@@ -5,8 +5,8 @@ class Third extends Component {
 
 render() {
 return(
-<div className="appheight">
-<p style={{ fontSize: "2em", color: "white" }}>
+<div className="appheight thirdBackground">
+<p style={{ fontSize: "2em", color: "white", marginTop: "0%" }}>
            Installation:
           </p>
     <p>We offer affordable installation at competitive rates. </p>

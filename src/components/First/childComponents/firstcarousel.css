@@ -1,0 +1,8 @@
+.carouselBackground{
+    background-color: rgba(0, 0, 0, 0.671);
+    max-width: 50vw;
+    border-radius: 12px;
+    position: absolute;
+    top: 37vh;
+
+}
