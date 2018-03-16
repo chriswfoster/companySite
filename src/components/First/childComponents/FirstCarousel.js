@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import Carousel from "nuka-carousel"
+import { Carousel } from "react-responsive-carousel"
 
 import "./first.css"
 class FirstCarousel extends Component {
@@ -27,24 +27,28 @@ class FirstCarousel extends Component {
     return (
       <div className="carouselBackground">
         <p> : </p>
-        <Carousel
-          autoplay={true}
-          autoplayInterval={3000}
-          slideIndex={this.state.slideIndex}
-          afterSlide={slideIndex => this.slideHandler(slideIndex)}
-        >
-          <img
-            className="carouselImages"
-            src={require("./carouselimages/MPX analog wiring system.png")}
-          />
-          <img
-            className="carouselImages"
-            src={require("./carouselimages/Power over ethernet.png")}
-          />
-          <img
-            className="carouselImages"
-            src={require("./carouselimages/Wireless security system.png")}
-          />
+        <Carousel autoPlay interval={3000} infiniteLoop>
+          <div>
+            <img
+              className="carouselImages"
+              src={require("./carouselimages/MPX analog wiring system.png")}
+            />
+            <p className="legend">Legend</p>
+          </div>
+          <div>
+            <img
+              className="carouselImages"
+              src={require("./carouselimages/Power over ethernet.png")}
+            />
+            <p className="legend">Legend</p>
+          </div>
+          <div>
+            <img
+              className="carouselImages"
+              src={require("./carouselimages/Wireless security system.png")}
+            />
+            <p className="legend">Legend</p>
+          </div>
         </Carousel>
       </div>
     )

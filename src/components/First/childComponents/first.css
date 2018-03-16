@@ -1,8 +1,7 @@
 .carouselBackground {
   background-color: rgba(0, 0, 0, 0.671);
   border-radius: 12px;
-  height: 36vh;
-  max-width: 40vw;
+
 }
 
 .bannerFlex {
