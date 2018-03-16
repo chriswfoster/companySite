@@ -1,0 +1,21 @@
+.carouselBackground {
+  background-color: rgba(0, 0, 0, 0.671);
+  border-radius: 12px;
+  height: 36vh;
+  max-width: 40vw;
+}
+
+.bannerFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  background-color: #565656;
+  height: 36vh;
+}
+.carouselImages {
+  height: 30vh;
+  max-width: 40vw;
+}

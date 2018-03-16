@@ -1,7 +1,5 @@
 .firstAnimation {
-  position: absolute;
-  right: 30%;
-  top: 22vh;
+  
   border-radius: 10px;
   animation-name: flasher;
   animation-duration: 1s;
@@ -13,9 +11,7 @@
   -webkit-animation-fill-mode: forwards;
 }
 .secondAnimation {
-  position: absolute;
-  right: 25%;
-  top: 30vh;
+  
   border-radius: 10px;
   animation-name: flasher;
   animation-duration: 1s;
@@ -27,9 +23,7 @@
   -webkit-animation-fill-mode: forwards;
 }
 .thirdAnimation {
-  position: absolute;
-  right: 20%;
-  top: 38vh;
+  
   border-radius: 10px;
   animation-name: flasher;
   animation-duration: 1s;
@@ -41,9 +35,7 @@
   -webkit-animation-fill-mode: forwards;
 }
 .fourthAnimation {
-  position: absolute;
-  right: 20%;
-  top: 46vh;
+  
   border-radius: 10px;
   animation-name: flasher;
   animation-duration: 1s;
@@ -55,9 +47,7 @@
   -webkit-animation-fill-mode: forwards;
 }
 .fifthAnimation {
-  position: absolute;
-  right: 25%;
-  top: 54vh;
+  
   border-radius: 10px;
   animation-name: flasher;
   animation-duration: 1s;
@@ -69,9 +59,7 @@
   -webkit-animation-fill-mode: forwards;
 }
 .sixthAnimation {
-  position: absolute;
-  right: 30%;
-  top: 62vh;
+  
   border-radius: 10px;
   animation-name: flasher;
   animation-duration: 1s;

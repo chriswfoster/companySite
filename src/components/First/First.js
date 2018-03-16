@@ -13,10 +13,8 @@ class First extends Component {
 
   render() {
     return (
-      <div className="generalHeight topBackground">
-        <h1 style={{marginTop: "-1vh", color: "white", textAlign: "center"}}> Ambience Total Security</h1>
-      <FirstCarousel />
-        <div style={{color: "white"}}>
+          <div className="generalHeight topBackground">
+      <div style={{color: "white"}}>
           <p className="firstAnimation flashFaderAnimation">SECURITY SERVICES</p>
           <p className="secondAnimation flashFaderAnimation">INDUSTRY</p>
           <p className="thirdAnimation flashFaderAnimation">ABOUT US</p>
@@ -24,6 +22,15 @@ class First extends Component {
           <p className="fifthAnimation flashFaderAnimation">OUR WORK</p>
           <p className="sixthAnimation flashFaderAnimation">CONTACT US</p>
         </div>
+        <div className = "bannerFlex">
+        <FirstCarousel />
+        <h1 style={{marginTop: "0vh", color: "white", textAlign: "center"}}> Ambience Total Security</h1>
+          <img src={require('../images/topbannerpic.png')}/>
+          </div>
+        
+        
+
+
       </div>
     )
   }
