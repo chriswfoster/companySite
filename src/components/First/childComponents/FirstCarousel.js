@@ -20,12 +20,12 @@ changeInterval(){
     setTimeout(function(){
         that.setState({slideIndex: 0})
     }, 3000)
-    
+
 }
 
 
     render(){
-  
+        console.log(this.state)
         return(
         <div className="carouselBackground" >
         <Carousel autoplay={true} autoplayInterval={3000} slideIndex={this.state.slideIndex}
