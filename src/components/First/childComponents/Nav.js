@@ -6,7 +6,7 @@ class Nav extends Component {
 render() {
 return(
 <div>
-<div style={{color: "white"}}>
+<div className="navFlex">
           <p className="firstAnimation flashFaderAnimation">SECURITY SERVICES</p>
           <p className="secondAnimation flashFaderAnimation">INDUSTRY</p>
           <p className="thirdAnimation flashFaderAnimation">ABOUT US</p>

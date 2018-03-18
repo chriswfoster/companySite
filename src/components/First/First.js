@@ -1,8 +1,12 @@
 import React, { Component } from "react"
-import "../components.css"
-import "../animate.css"
+import { GoogleMap, Marker } from "react-google-maps"
+
 import FirstCarousel from './childComponents/FirstCarousel'
 import Nav from './childComponents/Nav'
+
+import "../components.css"
+import "../animate.css"
+
 
 class First extends Component {
   constructor() {
@@ -19,7 +23,7 @@ class First extends Component {
         <div className = "bannerFlex">
         <FirstCarousel />
         <h1 style={{marginTop: "0vh", color: "white", textAlign: "center"}}> Ambience Total Security</h1>
-          <img src={require('../images/topbannerpic.png')}/>
+          <img src={require('../images/topbannerpic.png')} style={{borderRadius: "25px", height: "36vh"}}/>
           </div>
         
         

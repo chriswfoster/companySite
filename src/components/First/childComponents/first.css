@@ -33,7 +33,7 @@
   -webkit-animation-name: imageSlider1;
   -webkit-animation-duration: 12s;
   -webkit-animation-fill-mode: forwards;
-  position: fixed;
+  position: absolute;
 
 }
 .secondCarouselImage {
@@ -47,7 +47,7 @@
   -webkit-animation-name: imageSlider2;
   -webkit-animation-duration: 12s;
   -webkit-animation-fill-mode: forwards;
-  position: fixed;
+  position: absolute;
 }
 .thirdCarouselImage {
 
@@ -60,7 +60,7 @@
   -webkit-animation-name: imageSlider3;
   -webkit-animation-duration: 12s;
   -webkit-animation-fill-mode: forwards;
-position: fixed;
+position: absolute;
 }
 
 @keyframes imageSlider1 {
@@ -174,4 +174,15 @@ position: fixed;
   100% {
     opacity: 0;
   }
+}
+
+.navFlex{
+  background-color:#222222;
+  color: white;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
 }
