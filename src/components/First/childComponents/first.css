@@ -21,128 +21,150 @@
 
 .firstCarouselImage {
   animation-name: imageSlider1;
-  animation-duration: 4s;
-  left: 100vw;
-  animation-delay: 0s, 8s;
-  -webkit-animation-delay: 0s, 8s;
+  animation-duration: 12s;
+  left: 0vw;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-name: imageSlider1;
-  -webkit-animation-duration: 6s;
+  -webkit-animation-duration: 12s;
   -webkit-animation-fill-mode: forwards;
   position: absolute;
 }
 .secondCarouselImage {
   animation-name: imageSlider2;
-  animation-duration: 6s;
+  animation-duration: 12s;
   animation-fill-mode: forwards;
-  left: 100vw;
-  animation-delay: 4s, 8s;
-  -webkit-animation-delay: 4s, 8s;
+  left: 0vw;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-name: imageSlider2;
-  -webkit-animation-duration: 6s;
+  -webkit-animation-duration: 12s;
   -webkit-animation-fill-mode: forwards;
   position: absolute;
 }
 .thirdCarouselImage {
   animation-name: imageSlider3;
-  animation-duration: 6s;
+  animation-duration: 12s;
   animation-fill-mode: forwards;
-  left: 100vw;
-  animation-delay: 8s, 8s;
-  -webkit-animation-delay: 8s, 8s;
+  left: 0vw;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-name: imageSlider3;
-  -webkit-animation-duration: 6s;
+  -webkit-animation-duration: 12s;
   -webkit-animation-fill-mode: forwards;
   position: absolute;
 }
 
 @keyframes imageSlider1 {
   0% {
-    left: 100vw;
+    opacity: 0;
   }
-  20% {
-    left: 0%;
+  6%{
+    opacity: 1
   }
-  80% {
-    left: 0%;
+  30%{
+    opacity: 1;
   }
+  36% {
+    opacity: 0
+  }
+ 
   100% {
-    left: -100vw;
+    opacity: 0;
   }
 }
 @-webkit-keyframes imageSlider1 {
   0% {
-    left: 100vw;
+    opacity: 0;
   }
-  20% {
-    left: 0%;
+  6%{
+    opacity: 1
   }
-  80% {
-    left: 0%;
+  30%{
+    opacity: 1;
   }
+  36% {
+    opacity: 0
+  }
+ 
   100% {
-    left: -100vw;
+    opacity: 0;
   }
 }
 @keyframes imageSlider2 {
   0% {
-    left: 100vw;
+    opacity: 0;
   }
-  20% {
-    left: 0%;
+  30%{
+    opacity: 0;
   }
-  80% {
-    left: 0%;
+  36% {
+    opacity: 1
   }
+  63%{
+    opacity: 1;
+  }
+ 69%{
+   opacity: 0
+ }
   100% {
-    left: -100vw;
+    opacity: 0;
   }
 }
 @-webkit-keyframes imageSlider2 {
   0% {
-    left: 100vw;
+    opacity: 0;
   }
-  20% {
-    left: 0%;
+  30%{
+    opacity: 0;
   }
-  80% {
-    left: 0%;
+  36% {
+    opacity: 1
   }
+  63%{
+    opacity: 1;
+  }
+ 69%{
+   opacity: 0
+ }
   100% {
-    left: -100vw;
+    opacity: 0;
   }
 }
 @keyframes imageSlider3 {
   0% {
-    left: 100vw;
+    opacity: 0;
   }
-  20% {
-    left: 0%;
+ 
+  63%{
+    opacity: 0;
   }
-  80% {
-    left: 0%;
+  69% {
+    opacity: 1
+  }
+  95%{
+    opacity: 1;
   }
   100% {
-    left: -100vw;
+    opacity: 0;
   }
 }
 @-webkit-keyframes imageSlider3 {
   0% {
-    left: 100vw;
+    opacity: 0;
   }
-  20% {
-    left: 0%;
+ 
+  63%{
+    opacity: 0;
   }
-  80% {
-    left: 0%;
+  69% {
+    opacity: 1
+  }
+  95%{
+    opacity: 1;
   }
   100% {
-    left: -100vw;
+    opacity: 0;
   }
 }

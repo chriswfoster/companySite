@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import "../components.css"
 import "../animate.css"
 import FirstCarousel from './childComponents/FirstCarousel'
+import Nav from './childComponents/Nav'
 
 class First extends Component {
   constructor() {
@@ -14,14 +15,7 @@ class First extends Component {
   render() {
     return (
           <div className="generalHeight topBackground">
-      <div style={{color: "white"}}>
-          <p className="firstAnimation flashFaderAnimation">SECURITY SERVICES</p>
-          <p className="secondAnimation flashFaderAnimation">INDUSTRY</p>
-          <p className="thirdAnimation flashFaderAnimation">ABOUT US</p>
-          <p className="fourthAnimation flashFaderAnimation">INSIGHTS</p>
-          <p className="fifthAnimation flashFaderAnimation">OUR WORK</p>
-          <p className="sixthAnimation flashFaderAnimation">CONTACT US</p>
-        </div>
+      <Nav />
         <div className = "bannerFlex">
         <FirstCarousel />
         <h1 style={{marginTop: "0vh", color: "white", textAlign: "center"}}> Ambience Total Security</h1>
