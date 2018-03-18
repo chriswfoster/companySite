@@ -17,42 +17,52 @@
 }
 .carouselImages {
   height: 30vh;
-  margin-top: 1vh;
 }
 
 .firstCarouselImage {
-  animation-name: imageSlider;
-  animation-duration: 6s;
+  animation-name: imageSlider1;
+  animation-duration: 4s;
+  left: 100vw;
+  animation-delay: 0s, 8s;
+  -webkit-animation-delay: 0s, 8s;
   animation-fill-mode: forwards;
-  -webkit-animation-name: imageSlider;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: imageSlider1;
   -webkit-animation-duration: 6s;
   -webkit-animation-fill-mode: forwards;
   position: absolute;
 }
 .secondCarouselImage {
-  animation-name: imageSlider;
+  animation-name: imageSlider2;
   animation-duration: 6s;
   animation-fill-mode: forwards;
-  animation-delay: 0.66s;
-  -webkit-animation-delay: 0.66s;
-  -webkit-animation-name: imageSlider;
+  left: 100vw;
+  animation-delay: 4s, 8s;
+  -webkit-animation-delay: 4s, 8s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: imageSlider2;
   -webkit-animation-duration: 6s;
   -webkit-animation-fill-mode: forwards;
   position: absolute;
 }
 .thirdCarouselImage {
-  animation-name: imageSlider;
+  animation-name: imageSlider3;
   animation-duration: 6s;
   animation-fill-mode: forwards;
-  animation-delay: 0.66s;
-  -webkit-animation-delay: 0.66s;
-  -webkit-animation-name: imageSlider;
+  left: 100vw;
+  animation-delay: 8s, 8s;
+  -webkit-animation-delay: 8s, 8s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: imageSlider3;
   -webkit-animation-duration: 6s;
   -webkit-animation-fill-mode: forwards;
   position: absolute;
 }
 
-@keyframes imageSlider {
+@keyframes imageSlider1 {
   0% {
     left: 100vw;
   }
@@ -66,9 +76,65 @@
     left: -100vw;
   }
 }
-@-webkit-keyframes imageSlider {
+@-webkit-keyframes imageSlider1 {
   0% {
-    right: 0vw;
+    left: 100vw;
+  }
+  20% {
+    left: 0%;
+  }
+  80% {
+    left: 0%;
+  }
+  100% {
+    left: -100vw;
+  }
+}
+@keyframes imageSlider2 {
+  0% {
+    left: 100vw;
+  }
+  20% {
+    left: 0%;
+  }
+  80% {
+    left: 0%;
+  }
+  100% {
+    left: -100vw;
+  }
+}
+@-webkit-keyframes imageSlider2 {
+  0% {
+    left: 100vw;
+  }
+  20% {
+    left: 0%;
+  }
+  80% {
+    left: 0%;
+  }
+  100% {
+    left: -100vw;
+  }
+}
+@keyframes imageSlider3 {
+  0% {
+    left: 100vw;
+  }
+  20% {
+    left: 0%;
+  }
+  80% {
+    left: 0%;
+  }
+  100% {
+    left: -100vw;
+  }
+}
+@-webkit-keyframes imageSlider3 {
+  0% {
+    left: 100vw;
   }
   20% {
     left: 0%;

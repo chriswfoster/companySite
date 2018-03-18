@@ -32,20 +32,20 @@ class FirstCarousel extends Component {
               className="carouselImages firstCarouselImage"
               src={require("./carouselimages/MPX analog wiring system.png")}
             />
-            <p className="legend">Legend</p>
+         
 
   
             <img
-              className="carouselImages"
+              className="carouselImages secondCarouselImage"
               src={require("./carouselimages/Power over ethernet.png")}
             />
-            <p className="legend">Legend</p>
+           
 
             <img
-              className="carouselImages"
+              className="carouselImages thirdCarouselImage"
               src={require("./carouselimages/Wireless security system.png")}
             />
-            <p className="legend">Legend</p>
+           
 
         </div>
       </div>
