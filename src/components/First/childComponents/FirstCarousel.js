@@ -32,14 +32,11 @@ class FirstCarousel extends Component {
               className="carouselImages firstCarouselImage"
               src={require("./carouselimages/MPX analog wiring system.png")}
             />
-         
 
-  
             <img
               className="carouselImages secondCarouselImage"
               src={require("./carouselimages/Power over ethernet.png")}
             />
-           
 
             <img
               className="carouselImages thirdCarouselImage"

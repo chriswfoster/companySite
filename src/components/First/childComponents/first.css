@@ -1,8 +1,8 @@
 .carouselBackground {
   background-color: rgba(0, 0, 0, 0.671);
   border-radius: 12px;
-  overflow: hidden;
-  height: 36vh;
+    height: 36vh;
+  width: 47vw;
 }
 
 .bannerFlex {
@@ -13,13 +13,17 @@
   align-items: center;
   align-content: stretch;
   background-color: #565656;
-  height: 36vh;
+  height: 40vh;
 }
 .carouselImages {
   height: 30vh;
+  width: 40vw;
+  margin-top: 3vh;
+  margin-left: .5vw;
 }
 
 .firstCarouselImage {
+
   animation-name: imageSlider1;
   animation-duration: 12s;
   left: 0vw;
@@ -29,9 +33,11 @@
   -webkit-animation-name: imageSlider1;
   -webkit-animation-duration: 12s;
   -webkit-animation-fill-mode: forwards;
-  position: absolute;
+  position: fixed;
+
 }
 .secondCarouselImage {
+
   animation-name: imageSlider2;
   animation-duration: 12s;
   animation-fill-mode: forwards;
@@ -41,9 +47,10 @@
   -webkit-animation-name: imageSlider2;
   -webkit-animation-duration: 12s;
   -webkit-animation-fill-mode: forwards;
-  position: absolute;
+  position: fixed;
 }
 .thirdCarouselImage {
+
   animation-name: imageSlider3;
   animation-duration: 12s;
   animation-fill-mode: forwards;
@@ -53,7 +60,7 @@
   -webkit-animation-name: imageSlider3;
   -webkit-animation-duration: 12s;
   -webkit-animation-fill-mode: forwards;
-  position: absolute;
+position: fixed;
 }
 
 @keyframes imageSlider1 {
