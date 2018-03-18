@@ -25,13 +25,13 @@
 .firstCarouselImage {
 
   animation-name: imageSlider1;
-  animation-duration: 12s;
+  animation-duration: 16s;
   left: 0vw;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-name: imageSlider1;
-  -webkit-animation-duration: 12s;
+  -webkit-animation-duration: 16s;
   -webkit-animation-fill-mode: forwards;
   position: absolute;
 
@@ -39,26 +39,39 @@
 .secondCarouselImage {
 
   animation-name: imageSlider2;
-  animation-duration: 12s;
+  animation-duration: 16s;
   animation-fill-mode: forwards;
   left: 0vw;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-name: imageSlider2;
-  -webkit-animation-duration: 12s;
+  -webkit-animation-duration: 16s;
   -webkit-animation-fill-mode: forwards;
   position: absolute;
 }
 .thirdCarouselImage {
 
   animation-name: imageSlider3;
-  animation-duration: 12s;
+  animation-duration: 16s;
   animation-fill-mode: forwards;
   left: 0vw;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-name: imageSlider3;
-  -webkit-animation-duration: 12s;
+  -webkit-animation-duration: 16s;
+  -webkit-animation-fill-mode: forwards;
+position: absolute;
+}
+.fourthCarouselImage {
+
+  animation-name: imageSlider4;
+  animation-duration: 16s;
+  animation-fill-mode: forwards;
+  left: 0vw;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: imageSlider4;
+  -webkit-animation-duration: 16s;
   -webkit-animation-fill-mode: forwards;
 position: absolute;
 }
@@ -68,13 +81,13 @@ position: absolute;
     opacity: 0;
   }
   6%{
-    opacity: 1
-  }
-  30%{
     opacity: 1;
   }
-  36% {
-    opacity: 0
+  23%{
+    opacity: 1;
+  }
+  26% {
+    opacity: 0;
   }
  
   100% {
@@ -86,13 +99,13 @@ position: absolute;
     opacity: 0;
   }
   6%{
-    opacity: 1
-  }
-  30%{
     opacity: 1;
   }
-  36% {
-    opacity: 0
+  23%{
+    opacity: 1;
+  }
+  26% {
+    opacity: 0;
   }
  
   100% {
@@ -103,17 +116,17 @@ position: absolute;
   0% {
     opacity: 0;
   }
-  30%{
+  23%{
     opacity: 0;
   }
-  36% {
-    opacity: 1
-  }
-  63%{
+  26% {
     opacity: 1;
   }
- 69%{
-   opacity: 0
+  48%{
+    opacity: 1;
+  }
+ 51%{
+   opacity: 0;
  }
   100% {
     opacity: 0;
@@ -123,17 +136,17 @@ position: absolute;
   0% {
     opacity: 0;
   }
-  30%{
+  23%{
     opacity: 0;
   }
-  36% {
-    opacity: 1
-  }
-  63%{
+  26% {
     opacity: 1;
   }
- 69%{
-   opacity: 0
+  48%{
+    opacity: 1;
+  }
+ 51%{
+   opacity: 0;
  }
   100% {
     opacity: 0;
@@ -143,16 +156,18 @@ position: absolute;
   0% {
     opacity: 0;
   }
- 
-  63%{
+  48%{
     opacity: 0;
   }
-  69% {
-    opacity: 1
-  }
-  95%{
+  51% {
     opacity: 1;
   }
+  73%{
+    opacity: 1;
+  }
+ 76%{
+   opacity: 0;
+ }
   100% {
     opacity: 0;
   }
@@ -161,20 +176,64 @@ position: absolute;
   0% {
     opacity: 0;
   }
- 
-  63%{
+  48%{
     opacity: 0;
   }
-  69% {
-    opacity: 1
+  51% {
+    opacity: 1;
   }
-  95%{
+  73%{
+    opacity: 1;
+  }
+ 76%{
+   opacity: 0;
+ }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes imageSlider4 {
+  0% {
+    opacity: 0;
+  }
+ 
+  73%{
+    opacity: 0;
+  }
+  
+  76%{
+    opacity: 1;
+  }
+  97%{
     opacity: 1;
   }
   100% {
     opacity: 0;
   }
 }
+@-webkit-keyframes imageSlider4 {
+  0% {
+    opacity: 0;
+  }
+ 
+  73%{
+    opacity: 0;
+  }
+  
+  76%{
+    opacity: 1;
+  }
+  97%{
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+
 
 .navFlex{
   background-color:#222222;
@@ -197,6 +256,10 @@ position: absolute;
 }
 
 .firstBottomColumnFlex{
+  color: white;
+  background-color: #222222;
+  border-radius: 15px;
+  padding: 1vh;
   display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;

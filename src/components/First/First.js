@@ -26,7 +26,7 @@ class First extends Component {
     </GoogleMap>
   ))
     return (
-          <div className="generalHeight topBackground">
+          <div className="topBackground" style={{height: "auto"}}>
       <Nav />
         <div className = "bannerFlex">
         <FirstCarousel />
@@ -38,9 +38,9 @@ class First extends Component {
           <MyMapComponent
   isMarkerShown
   googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
-  loadingElement={<div style={{ height: `40vh`, width: `40vw` }} />}
+  loadingElement={<div style={{ height: `45vh`, width: `40vw` }} />}
   containerElement={<div style={{ height: `50vh`, width: `40vw` }} />}
-  mapElement={<div style={{ height: `40vh`, width: `40vw` }} />}
+  mapElement={<div style={{ height: `45vh`, width: `40vw` }} />}
 />
     <div className="firstBottomColumnFlex">
       <p ><b>SECURITY</b> technology and services. <br />

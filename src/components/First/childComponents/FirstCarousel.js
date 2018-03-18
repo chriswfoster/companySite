@@ -26,26 +26,28 @@ class FirstCarousel extends Component {
     console.log(this.state)
     return (
       <div className="carouselBackground">
-        <div>
+        
 
             <img
               className="carouselImages firstCarouselImage"
-              src={require("./carouselimages/MPX analog wiring system.png")}
+              src={require("./carouselimages/security 2.png")}
             />
 
             <img
               className="carouselImages secondCarouselImage"
-              src={require("./carouselimages/Power over ethernet.png")}
+              src={require("./carouselimages/automation 5.png")}
             />
 
             <img
               className="carouselImages thirdCarouselImage"
-              src={require("./carouselimages/Wireless security system.png")}
+              src={require("./carouselimages/CustomSolutions.png")}
             />
+            <img className ="carouselImages fourthCarouselImage"
+              src={require("./carouselimages/247support.png")}/>
            
 
         </div>
-      </div>
+    
     )
   }
 }
