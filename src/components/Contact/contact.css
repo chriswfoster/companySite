@@ -5,7 +5,9 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-	align-content: stretch;
+    align-content: stretch;
+    margin-top: 20vh;
+   
 }
 
 .contactTextColumn{
@@ -15,5 +17,29 @@
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	align-items: center;
-	align-content: stretch;
+    align-content: stretch;
+    
+}
+
+.contactFlex{
+    width: 30vw;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+    align-content: stretch;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #222222;
+    border-width: 1vh;
+    padding: 2vh;
+}
+
+
+.contactFlex div{
+ margin-left: 2vw;
+}
+.contactFlex div p{
+margin-bottom: 0vh;
 }
