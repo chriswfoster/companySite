@@ -35,13 +35,14 @@ class First extends Component {
           </div>
           <p style={{textAlign: "center", fontSize: "24px"}}>Located in the Dallas / Ft Worth Metroplex</p>
         <div className="firstBottom">
-          <MyMapComponent
+          <div className="mapBorder">
+          <MyMapComponent 
   isMarkerShown
   googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
-  loadingElement={<div style={{ height: `45vh`, width: `40vw` }} />}
-  containerElement={<div style={{ height: `50vh`, width: `40vw` }} />}
-  mapElement={<div style={{ height: `45vh`, width: `40vw` }} />}
-/>
+  loadingElement={<div style={{ height: `45vh`, width: `40vw`, borderRadius: "12px" }} />}
+  containerElement={<div style={{ height: `45vh`, width: `40vw`, borderRadius: "12px" }} />}
+  mapElement={<div style={{ height: `45vh`, width: `40vw`, borderRadius: "12px" }} />}
+/></div>
     <div className="firstBottomColumnFlex">
       <p ><b>SECURITY</b> technology and services. <br />
       And automation at it's best.</p>    
