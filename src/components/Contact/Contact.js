@@ -8,6 +8,10 @@ class Contact extends Component{
     constructor(){
         super()
         this.state = {
+
+            contactQuoteText: "REQUEST A QUOTE",
+            
+            //// input text
             firstNameText: "",
             lastNameText: "",
             emailAddressText:"",
@@ -55,16 +59,21 @@ aiText(val){
     this.setState({additionalInformationText: val})
 }
 
-
+dropDown(val){
+    val === 'contact' ? this.setState({contactQuoteText: "CONTACT US"}) :
+    this.setState({contactQuoteText: "REQUEST A QUOTE"})
+}
 
 
 render(){
     console.log(this.state)
     const {firstNameText, lastNameText, emailAddressText, companyNameText, phoneNumberText, serviceLocationText, hardwareText, additionalInformationText} = this.state
 return(
-<div className="generalHeight">
+<div className="generalHeight " style={{backgroundColor: "#e5e3df"}}>
     <Nav />
-
+    <div className="contactBanner">
+    <p style={{fontWeight: "bold"}}>{this.state.contactQuoteText}</p>
+        </div>
     <div className="contactRowOfColumns">
         <div className="contactTextColumn">
         <p>PROTECT WHAT MATTERS MOST TO YOU</p>
@@ -72,6 +81,13 @@ return(
         </div>
 
         <div className="contactFlex">
+        <div>
+            <p>Contact/Quote:</p>
+        <select defaultValue="quote" onChange={(e)=> this.dropDown(e.target.value)}>
+  <option value="contact">Contact</option>
+  <option value="quote">Quote</option>
+  </select>
+  </div>
         <div>
    <p>First Name</p>
 <input placeholder="Your first name." onChange={(e)=> this.fnText(e.target.value) } /></div>
