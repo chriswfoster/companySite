@@ -72,7 +72,8 @@ return(
 <div className="generalHeight " style={{backgroundColor: "#e5e3df"}}>
     <Nav />
     <div className="contactBanner">
-    <p style={{fontWeight: "bold"}}>{this.state.contactQuoteText}</p>
+    <p style={{fontWeight: "bold", fontSize:"2em"}}>{this.state.contactQuoteText}</p>
+    <p style={{marginTop: "-3vh", fontSize: ".8em"}}>Amient Total Security</p>
         </div>
     <div className="contactRowOfColumns">
         <div className="contactTextColumn">
