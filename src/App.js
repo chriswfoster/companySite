@@ -7,7 +7,7 @@ import './App.css';
 class App extends Component {
 
 
-
+// HOME.JS IS HOME PAGE ("/")
 
 
   render() {
