@@ -1,0 +1,47 @@
+
+.owBackground{
+    width: 100vw;
+    height: auto;
+   background-color: #e5e3df;
+}
+
+.owBanner{
+    background-image: url('../images/pen.png');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 30vh;
+    background-size: 100% 100%;
+    background-position-y: -6vh;
+    color: white;
+    overflow: hidden;
+}
+
+.owBanner p {
+    margin-top: 0vh;
+    position: relative;
+    top: 50%;
+    left: 8%;
+}
+.owInstaller{
+    border-style: solid;
+    border-width: 1vh;
+    border-color: #222222;
+    border-radius: 15px;
+    margin-bottom: 2vh;
+    width: 40vw;
+}
+.owMidText{
+    width: 100vw;
+     position: relative; 
+     height: 30vh;
+     margin-bottom: 1vh;
+     overflow-y: scroll;
+}
+.owMidText p {
+text-align: center;
+font-size: 2em;
+width: 70vw;
+height: auto;
+left: 15vw;
+position: absolute
+}

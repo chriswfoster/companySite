@@ -7,7 +7,7 @@ class Nav extends Component {
         <div className="navFlex">
           <Link to="/" style={{ textDecoration: "none", color: "white" }}>
             <p className="firstAnimation flashFaderAnimation">
-              SECURITY SERVICES
+              HOME
             </p>
           </Link>
           <p className="secondAnimation flashFaderAnimation">INDUSTRY</p>
