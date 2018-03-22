@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import Nav from "../First/childComponents/Nav"
 import InstallMethodBanner from "./childcomponents/InstallMethodBanner"
 import InstallSecurityMiddle from "./childcomponents/InstallSecurityMiddle"
+import InstallAutomation from './childcomponents/InstallAutomation'
 
 import "./ourwork.css"
 
@@ -29,6 +30,8 @@ class OurWork extends Component {
         <InstallSecurityMiddle />
 
         <InstallMethodBanner />
+
+        <InstallAutomation />
       </div>
     )
   }
