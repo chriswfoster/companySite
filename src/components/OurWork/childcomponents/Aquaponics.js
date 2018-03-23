@@ -6,7 +6,7 @@ import AquaFirst from './aquaponicschild/AquaFirst'
 class Aquaponics extends Component {
   render() {
     return (
-      <div style={{ backgroundColor: "#E2FDBA", height: "auto" }}>
+      <div style={{ backgroundColor: "#E2FDBA", height: "auto", borderTopStyle: "dashed", borderColor: "black", borderWidth: "1vh", paddingBottom: "20vh"}}>
         <h1>ATSA has gone green!</h1>
         <AquaFirst />
         <Solar />
