@@ -85,12 +85,24 @@
 }
 
 .solarBackground {
+
+  width: 100vw;
+  height: 100vh;
+ 
+  position: relative;
+  background-color: #e2fdba;
+  
+}
+.solarBackground div {
   background-image: url("../images/solar1.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  width: 80vw;
-  height: 100vh;
-  left: 10vw;
+  width: 80%;
+  left: 10%;
+  height: 100%;
   position: absolute;
-  background-color: #e2fdba;
+  border-color: #9ef81a;
+  border-style: solid;
+  border-width: 3vh;
+  border-radius: 12px;
 }

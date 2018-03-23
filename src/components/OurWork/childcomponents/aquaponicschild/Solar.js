@@ -5,10 +5,12 @@ class Solar extends Component {
 
 render() {
 return(
-<div
-className="solarBackground"
-style={{ backgroundColor: "#E2FDBA" }}
-/>
+<div style={{ backgroundColor: "#E2FDBA"}}className="solarBackground">
+    <div
+
+>
+</div>
+</div>
 )}
 }
 export default Solar
